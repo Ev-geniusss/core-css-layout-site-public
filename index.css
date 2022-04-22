@@ -1,0 +1,159 @@
+.menu {
+  width: 1430px;
+  height: 30px;
+  background-color: black;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.info {
+  background-color: black;
+  border: 5px solid white;
+  margin-left: 3px;
+  margin-bottom: 10px;
+
+
+}
+
+
+.photo1 {
+  width: 629px;
+  height: 500px;
+  border: 10px solid white;
+
+}
+
+html {
+  background-color: black;
+}
+
+.photo2 {
+  width: 380px;
+  height: 340px;
+  border: 10px solid white;
+}
+
+.photo3 {
+  width: 350px;
+  height: 500px;
+  border: 10px solid white;
+  margin-left: 5px;
+
+
+}
+
+.photo4 {
+  width: 300px;
+  height: 483px;
+  border: 10px solid white;
+  margin-top: 18px;
+
+}
+
+.photo5 {
+  width: 350px;
+  height: 482px;
+  border: 10px solid white;
+  margin-top: 17px;
+  margin-left: 5px;
+}
+
+.photo6 {
+  width: 300px;
+  height: 483px;
+  border: 10px solid white;
+  margin-top: 18px;
+  margin-left: 5px;
+}
+
+.photo7 {
+  width: 350px;
+  height: 500px;
+  border: 10px solid white;
+
+  margin-left: 5px;
+}
+
+.photo8 {
+  width: 350px;
+  height: 482px;
+  border: 10px solid white;
+  margin-top: 17px;
+  margin-left: 5px;
+}
+
+p {
+  margin: 5px;
+
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+.box {
+  display: inline-block;
+  justify-content: center;
+  margin-top: 10px;
+
+
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  margin-left: 33px;
+  margin-top: 10px;
+}
+
+.container {
+  width: 1390px;
+  height: 350px;
+  border: 10px solid white;
+  margin-left: 3px;
+}
+
+.container2 {
+  width: 1390px;
+  height: 200px;
+  border: 10px solid white;
+  margin-top: 10px;
+}
+
+.sq {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  position: relative;
+  animation-name: sqrt;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sqrt {
+  0% {
+    background-color: black;
+    left: 0px;
+    top: 0px;
+  }
+
+
+  50% {
+    background-color: blue;
+    left: 1187px;
+    top: 0px;
+    border-radius: 50%;
+  }
+
+  75% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: black;
+    left: 0px;
+    top: 0px;
+  }
+}
